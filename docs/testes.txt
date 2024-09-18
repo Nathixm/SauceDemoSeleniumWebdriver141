@@ -1,0 +1,34 @@
+Requisitos:
+1 - IDE (Interface de Desenvolvimento): VS Code
+2 - Linguagem de Programação: JavaScript (JS) - Node.JS
+3 - Gerenciador de versão/Repositorio: Git / GitHub
+4 - (opcional) - Gravador de Passos: Selenium IDE
+Adicionar frameworks e bibliotecas: 
+5 - Gerenciador de Pacotes - instalar, desinstalar e atualizar Pacotes
+    npm(popular e já vem junto o Node.JS) ou yarn (seguro)
+    através do npm vamos instalar as bibliotecas e frameworks
+6 - Selenium WevbDriver: frameworks de automação de teste web // selenium é "driver"
+   a) Para instalar
+    npm i selenium-wevbdriver (npm -v) ver a versão
+   b) Para ver o que está instalado 
+   npm list
+   c) Para desinstalar
+   "npm uninstall "o que você escreveu"
+ 7 - Mocha: framework de teste de unidade / motor / impulsonador para o teste  
+    a) Para instalar
+    npm i mocha
+    b) npx Para executar
+    npx mocha  
+
+Existem 3 obstáculos principais para automação
+1 - Seletor errado, mudou ou dinâmico
+2 - Sincronismo (robô ir mais rápido ou devagar que o site)
+3 - Programação exótica (uma organização não usual do código)
+
+Seletor
+ID
+name
+data-teste
+css - input
+class
+button
